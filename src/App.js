@@ -3,7 +3,6 @@ import { nanoid } from "nanoid";
 import NoteList from "./components/noteList";
 import Search from "./components/search";
 import Header from "./components/header";
-
 const App = () => {
   const [notes, setNotes] = useState([]);
 
@@ -39,8 +38,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div className="container">
+    <div className="background-container">
+      <div className="foreground-container">
         <Header />
         <Search handleSearchNote={setSearchText} />
         <NoteList
