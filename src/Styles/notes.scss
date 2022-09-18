@@ -104,11 +104,11 @@ textarea:focus {
 }
 
 .save {
+  color: white;
   @include button();
 }
 
 .save:hover {
-  background-color: aqua;
   cursor: pointer;
 }
 
@@ -131,6 +131,7 @@ textarea:focus {
 }
 
 .delete-button {
+  color: white;
   @include button();
   cursor: pointer;
 }

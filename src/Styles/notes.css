@@ -113,16 +113,16 @@ textarea:focus {
 }
 
 .save {
+  color: white;
+  background-color: Transparent;
   display: inline-block;
   font-size: 0.9rem;
   text-decoration: none;
-  color: white;
   border: white 1px solid;
   padding: 0.1em 0.5em;
 }
 
 .save:hover {
-  background-color: aqua;
   cursor: pointer;
 }
 
@@ -150,10 +150,11 @@ textarea:focus {
 }
 
 .delete-button {
+  color: white;
+  background-color: Transparent;
   display: inline-block;
   font-size: 0.9rem;
   text-decoration: none;
-  color: white;
   border: white 1px solid;
   padding: 0.1em 0.5em;
   cursor: pointer;

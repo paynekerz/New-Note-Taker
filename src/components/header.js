@@ -10,6 +10,7 @@ const Header = () => {
           className="github"
           href="https://github.com/paynekerz/New-Note-Taker"
           target="_blank"
+          rel="noreferrer"
         >
           <AiFillGithub size={33} />
         </a>
@@ -17,6 +18,7 @@ const Header = () => {
           className="linkedin"
           href="https://www.linkedin.com/in/paynekerz/"
           target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineLinkedin size={33} />
         </a>
